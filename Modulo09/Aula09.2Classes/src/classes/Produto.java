@@ -6,7 +6,7 @@ public class Produto {
 	Integer quantidade;
 	
 	public void exibirInformacoes(){
-		System.out.println("Exibindo um MÈtodo de Inst‚ncia da Classe Produto...");
+		System.out.println("Exibindo um M√©todo de Inst√¢ncia da Classe Produto...");
 		System.out.println("O Produto " + this.nome + " custa R$ " + this.valor + " e tem " + this.quantidade + " unidade(s) em estoque.");
 	}
 }

@@ -4,13 +4,13 @@ public class Programa {
 
 	public static void main(String[] args) {
 		Produto prod = new Produto();
-		prod.nome = "Smatfone";
+		prod.nome = "Smartphone";
 		prod.quantidade = 15;
 		prod.valor = 500.00;
 		
 		exibirProduto(prod);
-		//AtenÁ„o: O mÈtodo de cime e o de baixo fazem a mesma coisa.
-		System.out.println("--- O ideal seria utilizar um mÈtodo de inst‚ncia... ---");
+		//Aten√ß√£o: O m√©todo de cima e o de baixo fazem a mesma coisa.
+		System.out.println("--- O ideal seria utilizar um m√©todo de inst√¢ncia... ---");
 		prod.exibirInformacoes();
 
 	}
