@@ -8,13 +8,13 @@ public class UtilizandoMinhaBiblioteca {
 
 		Console teclado = new Console();
 		
-		Integer inteiro = teclado.lerInteiro("Digite um Número Inteiro: ");
-		Double decimal = teclado.lerDecimalo("Digite um Número Decimal: ");
+		Integer inteiro = teclado.lerInteiro("Digite um NÃºmero Inteiro: ");
+		Double decimal = teclado.lerDecimal("Digite um NÃºmero Decimal: ");
 		String texto = teclado.lerString("Digite um Texto: ");
 		teclado.imprimir(inteiro.toString());
 		teclado.imprimir(decimal.toString());
 		teclado.imprimir(texto);
-		teclado.erro("Você não fechou o Scanner!!!");
+		teclado.erro("VocÃª nÃ£o fechou o Scanner!!!");
 		teclado.imprimir("Por favor, feche o Scanner...");
 		teclado.fechar();
 		teclado.imprimir("Agora sim... Scanner fechado!!!");

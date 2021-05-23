@@ -11,7 +11,7 @@ public class Console {
 		return scanner.nextInt();
 	}
 	
-	public Double lerDecimalo(String texto) {
+	public Double lerDecimal(String texto) {
 		System.out.println(texto);
 		return scanner.nextDouble();
 	}
