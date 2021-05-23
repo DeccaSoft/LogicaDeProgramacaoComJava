@@ -17,12 +17,12 @@ public class EscritaArquivo {
 		//linhas.add("Linha 1");
 		
 		for(int i=0; i<5; i++) {
-			System.out.println("Digite o " + (i+1) + "� Nome: ");
+			System.out.println("Digite o " + (i+1) + "º Nome: ");
 			String nome = scanner.nextLine();
 			linhas.add(nome);
 		}
 		
-		Path arquivo = Paths.get("C:\\Users\\andre\\WorkSpaces\\AlgaWorks\\LogicaDeProgramacaoComJava\\Modulo10\\Aula10.2EscritaLeituraArquivo\\src\\aarquivo.txt");
+		Path arquivo = Paths.get("C:\\Users\\andre\\WorkSpaces\\AlgaWorks\\LogicaDeProgramacaoComJava\\Modulo10\\Aula10.2EscritaLeituraArquivo\\src\\arquivo.txt");
 				
 		try {
 			Files.write(arquivo, linhas);

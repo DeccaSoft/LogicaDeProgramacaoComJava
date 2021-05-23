@@ -10,7 +10,7 @@ public class LeituraArquivo {
 
 	public static void main(String[] args) throws IOException {
 
-		Path arquivo = Paths.get("C:\\Users\\andre\\Documents\\EclipseWorkspace\\AlgaWorks\\Aula10.2EscritaLeituraArquivo\\src\\\\arquivo.txt");
+		Path arquivo = Paths.get("C:\\Users\\andre\\WorkSpaces\\AlgaWorks\\LogicaDeProgramacaoComJava\\Modulo10\\Aula10.2EscritaLeituraArquivo\\src\\arquivo.txt");
 		List<String> linhas = Files.readAllLines(arquivo);
 		for(int i=0; i<linhas.size(); i++) {
 			String linha = linhas.get(i);
