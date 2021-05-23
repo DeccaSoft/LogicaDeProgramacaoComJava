@@ -1,0 +1,8 @@
+package EscritaArquivo;
+
+import java.nio.file.Files;
+
+public class EscritaArquivo {
+
+	Files.
+}

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: andre
+Build-Jdk: 14.0.2
+Implementation-URL: http://commons.apache.org/proper/commons-email/
+Created-By: Maven Integration for Eclipse
+Implementation-Build: ${scmBranch}@r${buildNumber}; 2020-10-25 23:07:12+
+ 0000
+Implementation-Title: Apache Commons Email
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 1.5
+Specification-Title: Apache Commons Email
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.5
+X-Compile-Source-JDK: 1.6
+X-Compile-Target-JDK: 1.6
+

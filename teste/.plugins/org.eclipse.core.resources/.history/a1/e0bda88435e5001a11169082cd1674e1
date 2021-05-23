@@ -1,0 +1,15 @@
+package encapsulamento;
+
+public class Ecapsulamento {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		
+		cliente.nome = "André Morais";
+		cliente.telefone = "99999999";
+		
+		System.out.println("Nome do Cliente: " + cliente.nome);
+	}
+
+}

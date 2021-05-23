@@ -1,0 +1,25 @@
+package bibliotecemail;
+
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.Email;
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.SimpleEmail;
+
+public class BibliotecaEMail {
+
+	public static void main(String[] args) throws EmailException {
+
+		Email email = new SimpleEmail();
+		email.setHostName("smtp.gmail.com");
+		email.setSmtpPort(465);
+		email.setAuthenticator(new DefaultAuthenticator("andremazevedo", "ama7020"));
+		email.setSSLOnConnect(true);
+		email.setFrom("cursologicaalgaworks@gmail.com");
+		email.setSubject("Teste de E-Mail");
+		email.setMsg("Este é um e-Mail de teste ... :-)");
+		email.addTo("andremazevedo@gmail.com");
+		email.send();
+
+	}
+
+}

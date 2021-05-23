@@ -1,0 +1,10 @@
+package Classe_x_Instancia;
+
+public class Classe_x_Instancia {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

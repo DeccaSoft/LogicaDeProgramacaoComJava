@@ -1,0 +1,13 @@
+
+public class ListaAlunos {
+
+	static final int QUANTIDADE_LISTA=2;
+	
+	Aluno[] lista = new Aluno[QUANTIDADE_LISTA];
+	int tamanho = 0;
+	
+	void adicionar(Aluno aluno) {
+		lista[tamanho] = aluno;
+		tamanho++;
+	}
+}

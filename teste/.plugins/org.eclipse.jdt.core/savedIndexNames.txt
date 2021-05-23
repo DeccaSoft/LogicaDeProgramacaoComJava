@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+C:\Users\andre\Documents\WorkSpaces\AlgaWorks\LogicaDeProgramacaoComJava\.metadata\.plugins\org.eclipse.jdt.core
+127366025.index
+3374908401.index
+3219927312.index
+1547154350.index
+3176046592.index
+1882242461.index
+1671692264.index
+3337210859.index
+2933207747.index
+3900768853.index
+58734867.index
+4210689512.index
+2526742343.index
+2067175451.index
+3638106494.index
+2375098152.index

@@ -1,0 +1,18 @@
+package Classe_x_Instancia;
+
+public class Classe_x_Instancia {
+
+	public static void main(String[] args) {
+
+		System.out.println("Qauntidade Mínima em Estoque(Classe): " + Produto.qtdMin);
+		
+		Produto p1 = new Produto();
+		Produto p2 = new Produto();
+		p1.nome = "Caneca";
+		p2.nome = "Carteira";
+		System.out.println("Produto 1: " + p1.nome);
+		System.out.println("Produto 2: " + p2.nome);
+
+	}
+
+}

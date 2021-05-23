@@ -1,0 +1,25 @@
+package EscritaArquivo;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
+public class EscritaArquivo {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> linhas = new ArrayList<String>();
+		linhas.add("Linha 1");
+		
+		Path arquivo = Paths.get("C:\\Users\\andre\\Documents\\EclipseWorkspace\\AlgaWorks\\Aula10.2EscritaArquivo\\src\\arquivo.txt");
+				
+		try {
+			Files.write(arquivo, linhas);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

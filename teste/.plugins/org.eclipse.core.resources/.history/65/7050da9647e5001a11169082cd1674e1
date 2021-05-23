@@ -1,0 +1,10 @@
+package EscritaLeituraArquivo;
+
+public class LeituraArquivo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

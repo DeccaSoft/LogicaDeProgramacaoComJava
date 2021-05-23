@@ -1,0 +1,12 @@
+package classes;
+
+public class Produto {
+	String nome;
+	Double valor;
+	Integer quantidade;
+	
+	exibirQuantidadeEstoque(Produto p){
+		
+	}
+	
+}

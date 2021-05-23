@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.email
+Archiver-Version: Plexus Archiver
+Built-By: bodewig
+Bnd-LastModified: 1501336587121
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Commons Email
+Bundle-DocURL: http://commons.apache.org/proper/commons-email/
+Include-Resource: META-INF/mime.types=src/main/resources/META-INF/mime
+ .types,META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=LICENSE.tx
+ t
+Import-Package: javax.activation,javax.mail,javax.mail.internet,javax.
+ mail.util,javax.naming
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Export-Package: org.apache.commons.mail;version="1.5",org.apache.commo
+ ns.mail.resolver;version="1.5",org.apache.commons.mail.util;version="
+ 1.5"
+Bundle-Name: Apache Commons Email
+Implementation-Title: Apache Commons Email
+Bundle-Description: Apache Commons Email aims to provide an API for se
+ nding email. It is built on top of        the JavaMail API, which it 
+ aims to simplify.
+Implementation-Version: 1.5
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 1.5.0
+X-Compile-Target-JDK: 1.6
+Implementation-Build: trunk@r1803365; 2017-07-29 15:56:23+0200
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://commons.apache.org/proper/commons-email/
+Specification-Version: 1.5
+
