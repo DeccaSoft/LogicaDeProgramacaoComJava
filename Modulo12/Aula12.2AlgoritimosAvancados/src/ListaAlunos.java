@@ -56,9 +56,9 @@ public class ListaAlunos {
 			while(indicePosicaoBase > 0) {
 				int indicePosicaoAnterior = indicePosicaoBase - 1;
 				Aluno alunoPosicaoAnterior = lista[indicePosicaoAnterior];
-				//Aqui ele criou essa vari·vel para melhor entender o if a seguir
+				//Aqui foi criada essa vari√°vel para melhor entender o if a seguir
 				//boolean alunoPosicaoAnteriorVemDepoisDe = alunoPosicaoAnterior == null || alunoPosicaoAnterior.VemDepoisDe(alunoPosicaoBase);
-				//Pois se a posiÁ„o anteriror for null, tambÈm queremos jog·-la para frente, afim de lev·-la ao final da lista
+				//Pois se a posi√ß√£o anteriror for null, tamb√©m queremos jog√°-la para frente, afim de lev√°-la ao final da lista
 				if(alunoPosicaoAnterior == null || alunoPosicaoAnterior.VemDepoisDe(alunoPosicaoBase)) {
 					lista[indicePosicaoBase] = lista[indicePosicaoAnterior];
 					indicePosicaoBase--;

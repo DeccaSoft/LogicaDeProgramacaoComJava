@@ -6,24 +6,23 @@ public class AlgoritimoAvancado {
 		ListaAlunos listaAlunos = new ListaAlunos();
 		
 		Aluno aluno1 = new Aluno();
-		aluno1.nome="Thiago";
+		aluno1.nome="Andr√©";
 		listaAlunos.adicionar(aluno1);
 		Aluno aluno2 = new Aluno();
-		aluno2.nome="Maria";
+		aluno2.nome="Daniella";
 		listaAlunos.adicionar(aluno2);
 		Aluno aluno3 = new Aluno();
-		aluno3.nome="Alexandre";
+		aluno3.nome="Mateus";
 		listaAlunos.adicionar(aluno3);
 		Aluno aluno4 = new Aluno();
-		aluno4.nome="Normandes";
+		aluno4.nome="Davi";
 		listaAlunos.adicionar(aluno4);
 		Aluno aluno5 = new Aluno();
-		aluno5.nome="Jo„o";
+		aluno5.nome="Caio";
 		listaAlunos.adicionar(aluno5);
 		
-		//Esse for poderia estar em um mÈtodo, tendo em vista que se repete mais l· embaixo
-		//E assim foi feito...
-		iterar(listaAlunos);
+		//Esse for poderia estar em um m√©todo, tendo em vista que se repete l√° embaixo
+
 //		for(int i=0; i<listaAlunos.tamanho(); i++) {
 //			Aluno a = listaAlunos.obter(i);
 //			if(a != null) {
@@ -33,9 +32,13 @@ public class AlgoritimoAvancado {
 //			}
 //		}
 		
+		//E assim foi feito...
+		iterar(listaAlunos);
+
 		System.out.println("----------Removendo o Aluno 3-----------");
 		listaAlunos.remover(aluno4);
 		iterar(listaAlunos);
+		
 //		for(int i=0; i<listaAlunos.tamanho(); i++) {
 //			Aluno a = listaAlunos.obter(i);
 //			if(a != null) {
