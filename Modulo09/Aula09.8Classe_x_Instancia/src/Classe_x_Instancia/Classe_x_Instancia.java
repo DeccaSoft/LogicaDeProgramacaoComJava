@@ -4,26 +4,29 @@ public class Classe_x_Instancia {
 
 	public static void main(String[] args) {
 
-		System.out.println("Qauntidade MÌnima em Estoque(Classe): " + Produto.qtdMin);
+		System.out.println("Quantidade M√≠nima em Estoque(Classe): " + Produto.qtdMin);
 		
 		Produto p1 = new Produto();
 		Produto p2 = new Produto();
 		p1.nome = "Caneca";
 		p2.nome = "Carteira";
-		p1.qtdMin = 10;
+
+		p1.qtdMin = 10;	//Est√° enfatizado por ser vari√°vel est√°tica
+
 		System.out.println("Produto 1: " + p1.nome);
-		System.out.println("Qauntidade MÌnima em Estoque(Produto 1): " + p1.qtdMin);
+		System.out.println("Quantidade M√≠nima em Estoque(Produto 1): " + p1.qtdMin);
 		System.out.println("Produto 2: " + p2.nome);
-		System.out.println("Qauntidade MÌnima em Estoque(Produto 2): " + p2.qtdMin);
-		//Ou seja, Uma vari·vel Est·tica È da Classe,
-		//portanto se for alterada, mesmo em uma inst‚ncia, continuar· alterada...
-		System.out.println("Qauntidade MÌnima em Estoque(Classe): " + Produto.qtdMin);
-		//Aprendizado: Em se tratando de vari·veis est·ticas,
-		//APENAS devemos usar a Classe para acess·las.
+		System.out.println("Quantidade M√≠nima em Estoque(Produto 2): " + p2.qtdMin);
+		//Ou seja, Uma vari√°vel Est√°tica √â da Classe,
+		//portanto, se for alterada, mesmo em uma inst√¢ncia, continuar√° alterada...
+
+		System.out.println("Quantidade M√≠nima em Estoque(Classe): " + Produto.qtdMin);
+		//Aprendizado: Em se tratando de vari√°veis est√°ticas,
+		//APENAS devemos usar a Classe para acess√°-las.
 		
-		//O mesmo vale para mÈtodos est·ticos
+		//O mesmo vale para M√©todos Est√°ticos
 		Impressao.info("Produto Criado com Sucesso!");
-		Impressao.erro("Falha na CriaÁ„o do Produto!");
+		Impressao.erro("Falha na Cria√ß√£o do Produto!");
 	}
 
 }
