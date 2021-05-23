@@ -7,18 +7,18 @@ public class Ecapsulamento {
 		Cliente cliente = new Cliente();
 		
 		//Antes do Encapsulamento
-		//cliente.nome = "André Morais";
+		//cliente.nome = "AndrÃ© Morais";
 		//cliente.telefone = "99999999";
 		
-		//Após o Encapsulamento
-		//cliente.setNome("André", "Morais");
+		//ApÃ³s o Encapsulamento
+		//cliente.setNome("AndrÃ©", "Morais");
 		cliente.setTelefone("99999999");
-		//Mais Avnçado...
-		cliente.setNome("André Morais");
+		//Mais AvanÃ§ado...
+		cliente.setNome("AndrÃ© Morais");
 		
 		System.out.println("Nome do Cliente: " + cliente.getNome());
-		System.out.println("Primeiro do Cliente: " + cliente.getPrimeiroNome());
-		System.out.println("Último do Cliente: " + cliente.getUltimoNome());
+		System.out.println("Primeiro Nome do Cliente: " + cliente.getPrimeiroNome());
+		System.out.println("Ãšltimo Nome do Cliente: " + cliente.getUltimoNome());
 	}
 
 }
